@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     @IBAction func changeButton(_ sender: Any) {
         
         
+        
         statusBool = !statusBool
         
         if statusBool {
