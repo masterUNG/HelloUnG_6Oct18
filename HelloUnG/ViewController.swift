@@ -16,26 +16,13 @@ class ViewController: UIViewController {
     let titleTrueButtonString: String = "Change Label"
     let titlwFalseButtonString: String = "Undo"
     
-    
-    
     var statusBool: Bool = true
-    
-    
-    
     
     @IBOutlet weak var titleButton: UIButton!
     
-    
-    
     @IBOutlet weak var titleLabel: UILabel!
     
-    
-    
     @IBAction func changeButton(_ sender: Any) {
-        
-        
-        
-        
         
         statusBool = !statusBool
         
@@ -46,8 +33,6 @@ class ViewController: UIViewController {
             titleButton.setTitle(titlwFalseButtonString, for: .normal)
             titleLabel.text = nameString
         }
-        
-        
     }   // changeButton
     
     
